@@ -1,0 +1,18 @@
+# Airflow / Docker logs (IMPORTANT - fixes your error)
+docker/logs/
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# dbt artifacts
+target/
+dbt_packages/
+
+# OS files
+.DS_Store

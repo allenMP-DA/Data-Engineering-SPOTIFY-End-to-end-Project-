@@ -1,0 +1,22 @@
+name: spotify_dbt
+
+profile: spotify_dbt
+
+seed-paths: ["seeds"]
+model-paths: ["models"]
+macro-paths: ["macros"]
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+seeds:
+  # Builds seeds into '<your_schema_name>_raw'
+  spotify_dbt:
+    +schema: raw
+
+models:
+  spotify_dbt:
+    gold:
+      +materialized: view
+    silver:
+      +materialized: view

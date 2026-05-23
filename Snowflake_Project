@@ -1,6 +1,0 @@
-
-#End To End Data Engineering Project Using Snowflake
-
-#Snowflake DataWarehouse Project
-This project builds a Snowflake-based data pipeline for analyzing the ICC Cricket World Cup data.  
-It demonstrates how to load JSON data into Snowflake, transform it into clean tables, and run analytical queries.
